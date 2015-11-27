@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <ul class="nav nav-tabs">
-      <li role="presentation"><a href="#">Home</a></li>
-      <li role="presentation"><a href="#">Profile</a></li>
-      <li role="presentation"><a href="#">Messages</a></li>
-    </ul>
-  </body>
+<head>
+  <title>IBS HU1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="hidden-lg"><a href="#home"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
+        <li class="visible-lg"><a href="#home"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li class="visible-lg"><a href="#overme">Über mich</a></li>
+        <li class="visible-lg"><a href="#study">Studium</a></li>
+        <li class="visible-lg"><a href="">Wikipedia Suche</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container-fluid">
+      <a id="home"></a>
+      <h1>Hompepage</h1>
+      <p>von Nico Schütz</p>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="light">
+    <a id="overme"></a>
+    <h1>Über mich</h1>
+  </div>
+
+  <div class="container-fluid" id="dark">
+    <a id="study"></a>
+    <h1>Studium</h1>
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid" id="light">
+      <nav class="pull-left">
+        <a href="#">Impressum</a>
+      </nav>
+      <nav class="pull-right">
+        <div class="copyright">&copy; 2015, Nico Schütz</div>
+      </nav>
+    </div>
+  </footer>
+</body>
 </html>

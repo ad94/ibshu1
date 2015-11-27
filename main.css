@@ -1,0 +1,67 @@
+#light {
+  color: #283231;
+  background-color: #BFFA00;
+  height: 500px;
+}
+
+#dark {
+  color: #BFFA00;
+  background-color: #283231;
+  height: 500px;
+}
+
+.navbar {
+  background-color: #BFFA00;
+}
+
+.navbar .nav li a {
+    color: #BFFA00;
+    background-color: #283231;
+}
+
+.navbar .navbar-default .navbar-fixed-top {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.jumbotron {
+  color: #BFFA00;
+  background-color: #283231;
+  margin: 0px 0px 0px 0px;
+  height: 500px;
+}
+
+.footer {
+
+}
+
+.footer a {
+  color: #283231;
+}
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
