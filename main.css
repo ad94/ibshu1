@@ -1,5 +1,4 @@
 
-
 #light {
   color: #283231;
   background-color: #BFFA00;
@@ -61,6 +60,18 @@
   background-color: #BFFA00;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+#wikisearch {
+  color: #283231;
+  background-color: #BFFA00;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: sans-serif;
+}
+
+#wcagaaa {
+  margin: 10px 10px 10px 10px;
 }
 
 /* Large desktops and laptops */
