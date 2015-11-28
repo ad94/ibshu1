@@ -6,13 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
-        <li class="hidden-lg hidden-md"><a href="#home"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+        <li class="dropdown hidden-lg hidden-md">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#overme">Über mich</a></li>
+            <li><a href="#study">Studium</a></li>
+            <li><a href="wikisearch.html">Wikipedia Suche</a></li>
+          </ul>
         </li>
         <li class="visible-lg visible-md"><a href="#home"><span class="glyphicon glyphicon-home"></span></a></li>
         <li class="visible-lg visible-md"><a href="#overme">Über mich</a></li>
@@ -24,19 +34,19 @@
 
   <div class="jumbotron">
     <div class="container-fluid">
-      <a id="home"></a>
+      <a class="page" id="home"></a>
       <h1>Hompepage</h1>
       <p>von Nico Schütz</p>
     </div>
   </div>
 
   <div class="container-fluid" id="light">
-    <a id="overme"></a>
+    <a class="page" id="overme"></a>
     <h1>Über mich</h1>
   </div>
 
   <div class="container-fluid" id="dark">
-    <a id="study"></a>
+    <a class="page" id="study"></a>
     <h1>Studium</h1>
   </div>
 

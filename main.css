@@ -1,3 +1,4 @@
+
 #light {
   color: #283231;
   background-color: #BFFA00;
@@ -14,7 +15,7 @@
   background-color: #BFFA00;
 }
 
-.navbar .nav li a {
+.navbar .nav > li > a {
     color: #BFFA00;
     background-color: #283231;
 }
@@ -22,6 +23,22 @@
 .navbar .navbar-default .navbar-fixed-top {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #BFFA00;
+  background-color: #283231;
+}
+
+.navbar-default .navbar-nav .open .dropdown-toggle {
+  color: #BFFA00;
+  background-color: #283231;
+}
+
+.page {
+   padding-top: 40px;
+   margin-top: -40px;
+
 }
 
 .jumbotron {
