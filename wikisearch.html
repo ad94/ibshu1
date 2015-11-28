@@ -7,18 +7,25 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <form method="get" action="http://de.wikipedia.org/w/index.php" target="_blank">
-      <p><input type="hidden" name="title" value="Spezial%3ASuche" />
-      <input type="text" name="search" />
-      <input type="submit" value="Search" /></p>
-
-      <fieldset>
-      <p><input type="radio" id="artikel" name="Suche" value="Artikelsuche" checked="checked">
-      <label for="artikel"> Artikelsuche</label></p>
-      <p><input type="radio" id="volltext" name="Suche" value="Volltextsuche">
-      <label for="volltext"> Volltextsuche</label></p>
+  <h1>Suchformular für die deutsche Wikipedia</h1>
+  <form action="http://de.wikipedia.org/wiki/Spezial:Suche" target="_blank">
+    <fieldset>
+      <legend>Suchformular</legend>
+      <p><input type="text"  name="search" value="" />
+        <input type="submit" value="Suchen" />
+      </p>
+      <p><input type="radio" name="go" value="Artikel-Suche" id="artikel" checked="checked"/>
+        <label for="artikel"> Artikelsuche</label>
+      </p>
+      <p><input type="radio" name="fulltext" value="Volltext" id="volltextsuche"/>
+        <label for="volltext"> Volltextsuche</label>
+      </p>
     </fieldset>
   </form>
-  <a href="http://wave.webaim.org/" target="_blank"><img src="http://www.w3.org/WAI/wcag1AAA.gif" alt="Web Content Accessibility Guidelines Triple-A"/></a>
+  <!--https://de.wikipedia.org/wiki/Spezial:Suche?search=aassdf&go=Artikel-Suche -->
+  <!--https://de.wikipedia.org/wiki/Spezial:Suche?search=aassdf&fulltext=Volltextsuche -->
+  <a href="http://wave.webaim.org/report#/http://ibshu1nicos.cloudcontrolled.com/wikisearch.html">
+    <img src="http://www.w3.org/WAI/wcag1AAA.gif" alt="Web Content Accessibility Guidelines Triple-A"/>
+  </a>
 </body>
 </html>
