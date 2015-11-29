@@ -9,6 +9,10 @@
   background-color: #283231;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 .navbar {
   background-color: #BFFA00;
 }
@@ -38,9 +42,16 @@
    margin-top: -2%;
 }
 
-.container-fluid .text {
-  margin-left: 5%;
-  margin-right: 5%px;
+.container-fluid .contentfield {
+  text-align: center;
+  margin-left: 4%;
+  margin-right: 5%;
+}
+
+.container-fluid .contentfield .codecademy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .jumbotron {
