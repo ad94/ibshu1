@@ -34,8 +34,13 @@
 }
 
 .page {
-   padding-top: 40px;
-   margin-top: -40px;
+   padding-top: 2%;
+   margin-top: -2%;
+}
+
+.container-fluid .text {
+  margin-left: 5%;
+  margin-right: 5%px;
 }
 
 .jumbotron {
@@ -45,30 +50,36 @@
   height: 500px;
 }
 
-.codecademy {
-  margin: 20px 20px 20px 20px;
-}
-
 .footer li a {
   color: #BFFA00;
 }
 
 .footer ul {
+  margin-top: 5%;
   list-style-type: none;
+}
+
+.copyright {
+  margin-top: 5%;
+  font-size:
+}
+
+.codecademy {
+  margin-bottom: 5%;
 }
 
 #about {
   color: #283231;
   background-color: #BFFA00;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #wikisearch {
   color: #283231;
   background-color: #BFFA00;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: sans-serif;
 }
 
